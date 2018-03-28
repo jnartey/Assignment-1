@@ -12,10 +12,12 @@ public class SpecificLegalProblems {
 		
 		//Prompt for user's name
 		System.out.println("Hey, what's your name?");
+		System.out.print("> ");
 		String name = input.nextLine();
 		
 		//Display name in prompt asking for user's age
 		System.out.println("Ok, " + name + ", how old are you?");
+		System.out.print("> ");
 		int age = input.nextInt();
 		
 		//Age legal If conditions

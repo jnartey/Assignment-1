@@ -16,12 +16,15 @@ public class LegalProblems {
 		
 		//Prompt for user's name
 		System.out.println("Hey, what's your name?");
+		System.out.print("> ");
 		String name = input.nextLine();
 		
 		//Display name in prompt asking for user's age
 		System.out.println("Ok, " + name + ", how old are you?");
+		System.out.print("> ");
 		int age = input.nextInt();
 		
+		System.out.print("\n");
 		//Age legal If conditions
 		if(age < 16) {
 			System.out.println("You can't drive, " + name + ".");
@@ -39,7 +42,7 @@ public class LegalProblems {
 			System.out.println("You can do anything that's legal, " + name + ".");
 		}
 		
-		System.out.println("***Exiting Program. Goodbye***");
+		//System.out.println("***Exiting Program. Goodbye***");
 		input.close();
 	}
 

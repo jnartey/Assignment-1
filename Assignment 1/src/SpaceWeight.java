@@ -21,6 +21,7 @@ public class SpaceWeight {
 		
 		//Prompt for earth weight
 		System.out.println("Please enter your current earth weight:");
+		System.out.print("> ");
 		int earth_weight = input.nextInt();
 		
 		if(earth_weight > 0) {
@@ -34,6 +35,7 @@ public class SpaceWeight {
 			System.out.println("5. Uranus");
 			System.out.println("6. Neptune");
 			System.out.println("Which planet are you visiting?");
+			System.out.print("> ");
 			input.nextLine();
 			int planet = input.nextInt();
 			

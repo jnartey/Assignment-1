@@ -19,6 +19,7 @@ public class DayOfTheWeek {
 		System.out.println("6 -> Saturday");
 		System.out.println("7 -> Sunday");
 		System.out.println("Please enter an integer (1-7):");
+		System.out.print("> ");
 		
 		//Instantiating the Scanner class to take input
 		Scanner input = new Scanner(System.in);
@@ -26,6 +27,7 @@ public class DayOfTheWeek {
 		//Take input integer
 		int day = input.nextInt();
 		
+		System.out.print("\n");
 		//Response
 		//Day of the week control statement
 		if(day == 1) {
