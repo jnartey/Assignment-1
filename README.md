@@ -1,4 +1,4 @@
-# Assignment-1
+# Assignment 1
 If Statements
 
 1. What if...
